@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventBus.Base.Abstraction
 {
-    public interface IEventBus
+    public interface IEventBus:IDisposable
     {
         //Subscribe etmeye yarar AzureService veya RabbitMQ'ya
         void Publish(IntegrationEvent @event);
