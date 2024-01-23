@@ -1,1 +1,3 @@
 Servisler arasý iletiþimi EventBus üzerinden yapacaðýz.
+
+EventBusFactory => AzureServiceBus ile RabbitMQ arasýnda anahtar rolünü oynayacak
